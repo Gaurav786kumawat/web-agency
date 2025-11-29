@@ -55,9 +55,10 @@ const pricing = [
     price: "₹1,499 – ₹2,499",
     bestFor: "Small shops, freelancers, students",
     items: [
-      "1-page website (from existing demo)",
-      "Basic content & photo setup",
-      "WhatsApp contact button",
+      "1-page website (based on existing demo)",
+      "Basic content, logo & photo setup",
+      "WhatsApp click-to-chat button",
+      "Mobile-friendly, clean and fast",
       "Delivery within 24–48 hours",
     ],
   },
@@ -65,13 +66,39 @@ const pricing = [
     title: "Business Website",
     price: "₹2,999 – ₹4,999",
     bestFor: "Running businesses & local brands",
-    items: [
-      "Customized 1-page or multi-section layout",
-      "Menu / services / packages sections",
-      "Google Maps & contact integration",
-      "Basic SEO + performance checks",
-    ],
     highlight: true,
+    items: [
+      "Customised 1-page or multi-section design",
+      "Services / menu / packages / gallery sections",
+      "Google Maps & contact integrations",
+      "Basic SEO titles + description",
+      "Performance & mobile responsiveness checks",
+    ],
+  },
+  {
+    title: "Multi-Page Website",
+    price: "₹5,000 – ₹12,000",
+    bestFor: "Clinics, coaching, salons, real estate, studios & service businesses",
+    items: [
+      "2–6 page custom website",
+      "Advanced sections (FAQs, gallery, reviews, pricing)",
+      "Lead/contact forms",
+      "Brand colours & personalised layout",
+      "Delivery: 4–7 days depending on content",
+    ],
+  },
+  {
+    title: "Full-Stack Website / Platform",
+    price: "₹20,000 – ₹60,000+",
+    bestFor: "Startups, portals, advanced business systems",
+    items: [
+      "Authentication (login/signup)",
+      "Payment integration (Razorpay / Stripe)",
+      "Admin panel / dashboard",
+      "Bookings, product listings, API-based features",
+      "Role-based access (admin, user, staff)",
+      "Built with modern frameworks + AI-assisted workflow",
+    ],
   },
   {
     title: "Support & Maintenance",
@@ -85,6 +112,7 @@ const pricing = [
     ],
   },
 ];
+
 
 const process = [
   {
