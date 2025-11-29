@@ -355,40 +355,57 @@ export default function HomePage() {
       </section>
 
       {/* WHO IT'S FOR */}
-      <section className="space-y-4">
-        <h2 className="text-2xl md:text-3xl font-semibold">
-          Who this is perfect for
-        </h2>
-        <div className="grid md:grid-cols-3 gap-5 text-sm">
-          <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
-            <h3 className="font-medium text-slate-100 mb-2">
-              Local shop owners
-            </h3>
-            <p className="text-slate-300 text-sm">
-              Restaurants, cafes, kirana stores, salons, gyms, clinics,
-              coaching centres, car wash, car bazar and more.
-            </p>
-          </div>
-          <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
-            <h3 className="font-medium text-slate-100 mb-2">
-              Creators & freelancers
-            </h3>
-            <p className="text-slate-300 text-sm">
-              Photographers, trainers, tutors, event planners, YouTubers — anyone
-              who needs a simple public page.
-            </p>
-          </div>
-          <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
-            <h3 className="font-medium text-slate-100 mb-2">
-              Students & freshers
-            </h3>
-            <p className="text-slate-300 text-sm">
-              Portfolios, resumes and LinkedIn-friendly profiles to help you get
-              noticed faster.
-            </p>
-          </div>
-        </div>
-      </section>
+<section className="space-y-4">
+  <h2 className="text-2xl md:text-3xl font-semibold">
+    Who this is perfect for
+  </h2>
+  <div className="grid md:grid-cols-3 gap-5 text-sm">
+    <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
+      <h3 className="font-medium text-slate-100 mb-2">
+        Local shops & service businesses
+      </h3>
+      <p className="text-slate-300 text-sm">
+        Restaurants, cafes, kirana stores, salons, gyms, clinics, coaching
+        centres, car wash, car bazar and other local businesses that need a
+        clean, fast website with clear information and WhatsApp/contact options.
+      </p>
+    </div>
+
+    <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
+      <h3 className="font-medium text-slate-100 mb-2">
+        Creators, freelancers & professionals
+      </h3>
+      <p className="text-slate-300 text-sm">
+        Photographers, trainers, tutors, event planners, YouTubers and
+        independent professionals who want a focused online presence, lead
+        pages, portfolios or booking pages.
+      </p>
+    </div>
+
+    <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4">
+      <h3 className="font-medium text-slate-100 mb-2">
+        Students, freshers & job-seekers
+      </h3>
+      <p className="text-slate-300 text-sm">
+        Portfolios, resumes and LinkedIn-friendly sites that make your skills
+        easy to understand and help you get noticed faster.
+      </p>
+    </div>
+
+    <div className="border border-slate-800 rounded-2xl bg-slate-900/40 p-4 md:col-span-3">
+      <h3 className="font-medium text-slate-100 mb-2">
+        Growing businesses & startups (advanced projects)
+      </h3>
+      <p className="text-slate-300 text-sm">
+        Businesses that need more than a basic website — multi-page setups,
+        login systems, payment integration, dashboards, booking flows or other
+        custom full-stack features. If you have a serious product or platform
+        idea, I can help you turn it into a working web experience.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* CONTACT CTA */}
       <section id="contact" className="rounded-3xl border border-emerald-500/60 bg-emerald-500/10 p-6 md:p-8 space-y-4">
