@@ -8,35 +8,46 @@ const WHATSAPP = "917878583600";
 const services = [
   {
     name: "One-Page Business Website",
-    desc: "Restaurant, gym, salon, clinic, coaching, cafe, car bazar & more — ready in 24–48 hours.",
+    desc: "Clean, modern single-page websites for restaurants, gyms, salons, clinics, coaching, cafes, car bazaars & more — ready in 24–48 hours.",
     note: "Built with Next.js + Tailwind, mobile-first & fast.",
   },
   {
-    name: "Beauty of Danta + Local Directory",
-    desc: "Hyperlocal website + business listing for Danta, Sikar & nearby areas.",
-    note: "Perfect for local brands & pages.",
+    name: "Multi-Page & Advanced Business Websites",
+    desc: "Fully customised websites with multiple pages, service sections, gallery, pricing, forms, branding & more — tailored for growing businesses.",
+    note: "Best for clinics, coaching, real estate, salons, studios, cafes & service providers.",
+  },
+  {
+    name: "Full-Stack Platforms (Login, Payments, Dashboard)",
+    desc: "Advanced business platforms with authentication, payment integration (Razorpay/Stripe), admin panels, dashboards, bookings & product listings.",
+    note: "For startups, brands & businesses that need powerful digital systems.",
+  },
+  {
+    name: "City-Specific Website + Local Directory",
+    desc: "Hyperlocal website + business listing platform for Danta, Sikar & nearby areas.",
+    note: "Ideal for local brands, pages & community projects.",
   },
   {
     name: "WhatsApp Automation & Business Setup",
-    desc: "Auto-replies, greeting messages, catalog, and lead capture flows for WhatsApp Business.",
-    note: "Great for shops & service providers.",
+    desc: "Auto-replies, greeting messages, catalog setup, FAQs & lead-capture flows for WhatsApp Business.",
+    note: "Perfect for shops & service providers.",
   },
   {
     name: "AI Tools & Content Helpers",
-    desc: "Caption, hashtag, blog generator, QR tool, image compressor and more.",
-    note: "Time-saving tools for creators & businesses.",
+    desc: "Caption generator, hashtag generator, blog drafts, QR tool, image compressor and more small utilities.",
+    note: "Time-saving tools for creators & business owners.",
   },
   {
     name: "Website Speed & Optimization",
-    desc: "Image compression, code cleanup, Lighthouse score improvements.",
-    note: "Faster loading = more customers stay.",
+    desc: "Image compression, WebP conversion, code cleanup & Lighthouse score improvements.",
+    note: "Faster loading = more conversions.",
   },
   {
     name: "Portfolio + Resume + LinkedIn Setup",
-    desc: "Clean personal portfolio sites and job-ready profiles.",
-    note: "Perfect for students and freshers.",
+    desc: "Clean personal portfolio websites, ATS-friendly resumes & LinkedIn guidance.",
+    note: "Perfect for students, job-seekers & professionals.",
   },
 ];
+
 
 const pricing = [
   {
@@ -153,9 +164,7 @@ export default function HomePage() {
           for local businesses, creators & startups. 
         </h1>
         <p className="text-sm md:text-base text-slate-300 max-w-2xl">
-          Based in Danta, Sikar (Rajasthan). I use modern tech and AI assistance
-          to ship 1-page business websites, WhatsApp setups and small tools
-          quickly — so you can focus on running your work, not learning tech.
+          Based in Danta, Sikar (Rajasthan). Using modern tools and AI assistance, I deliver everything from simple one-page business websites to complex multi-page setups with payments, login systems and dashboards — all built fast, clean and tailored to your needs.
         </p>
 
         <div className="flex flex-wrap gap-4">
