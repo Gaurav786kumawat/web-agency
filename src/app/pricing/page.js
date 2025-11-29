@@ -6,151 +6,154 @@ import Link from "next/link";
 const WHATSAPP = "917878583600";
 
 const websitePlans = [
-    {
-        title: "Starter 1-Page Website",
-        price: "₹1,499 – ₹2,499 (once)",
-        bestFor: "Small shops, students, very simple needs",
-        points: [
-            "1-page website based on an existing demo layout",
-            "Your name, logo, services, pricing & contact added",
-            "WhatsApp click-to-chat button",
-            "Mobile-friendly & fast",
-            "Delivery in 24–48 hours after content is shared",
-        ],
-    },
-    {
-        title: "Business Website",
-        price: "₹2,999 – ₹4,999 (once)",
-        bestFor: "Running businesses, clinics, gyms, salons, coaching, etc.",
-        points: [
-            "Customised layout using any of my demos",
-            "Menu / services / packages / FAQs sections",
-            "Google Maps & contact integrations",
-            "Basic SEO titles & descriptions",
-            "Speed & mobile responsiveness checks",
-        ],
-    },
-    {
-        title: "Custom / Advanced Setup",
-        price: "From ₹5,000+",
-        bestFor: "When you need more than a simple 1-page website",
-        points: [
-            "Multi-section or simple multi-page layouts",
-            "Extra content like blogs, gallery, forms etc.",
-            "Designed around your exact requirements",
-            "Pricing decided after a short WhatsApp discussion",
-        ],
-    },
-    {
-        title: "Full-Stack Business Website / Platform",
-        price: "Typically ₹20,000 – ₹60,000+",
-        bestFor: "Serious businesses, startups & complex requirements",
-        highlight: true,
-        points: [
-            "Multi-page website or web app with clear information architecture",
-            "Authentication (login / signup) for users (using modern auth providers)",
-            "Payment integration (Razorpay / Stripe or similar) for orders/payments",
-            "Admin panel / basic CMS or dashboards to manage data",
-            "Advanced forms, product listing, appointment / booking flows",
-            "API-based features (e.g. pulling/saving data, role-based access)",
-            "Final scope & quote decided only after detailed WhatsApp discussion",
-        ],
-    },
+  {
+    title: "Starter 1-Page Website",
+    price: "₹1,499 – ₹2,499 (one-time)",
+    bestFor: "Small shops, students & simple needs",
+    points: [
+      "1-page website based on an existing demo layout",
+      "Your name, logo, services, pricing & contact added",
+      "WhatsApp click-to-chat button",
+      "Mobile-friendly, clean and fast",
+      "Delivery within 24–48 hours after content is shared",
+    ],
+  },
+  {
+    title: "Business Website",
+    price: "₹2,999 – ₹4,999 (one-time)",
+    bestFor: "Running businesses: clinics, gyms, salons, coaching, cafes, etc.",
+    points: [
+      "Customised 1-page or multi-section layout using any demo",
+      "Menu / services / packages / FAQs sections",
+      "Google Maps + contact integrations",
+      "Basic SEO titles & descriptions",
+      "Performance & mobile responsiveness checks",
+    ],
+  },
+  {
+    title: "Custom / Multi-Page Website",
+    price: "From ₹5,000+",
+    bestFor: "When you need more than a simple 1-page setup",
+    points: [
+      "Multi-section or simple multi-page layouts",
+      "Extra sections like blogs, gallery, reviews & forms",
+      "Designed fully around your brand requirements",
+      "Final pricing shared after a short WhatsApp discussion",
+    ],
+  },
+  {
+    title: "Full-Stack Business Website / Platform",
+    price: "Typically ₹20,000 – ₹60,000+",
+    bestFor: "Serious businesses, startups & advanced requirements",
+    highlight: true,
+    points: [
+      "Multi-page website or full web app with clear information architecture",
+      "Authentication (login / signup) using modern auth providers",
+      "Payment integration (Razorpay / Stripe)",
+      "Admin panel / CMS / dashboards for data management",
+      "Advanced forms, product listings & booking flows",
+      "API-based features + role-based access control",
+      "Final scope & quotation after detailed WhatsApp discussion",
+    ],
+  },
 ];
+
 
 const recurring = [
-    {
-        title: "Yearly Hosting & Maintenance",
-        price: "From ₹499 – ₹1,499 / year",
-        points: [
-            "Small text / photo updates",
-            "Basic bug fixes & tweaks",
-            "Help with domain & hosting renewals",
-            "WhatsApp support for minor issues",
-        ],
-    },
-    {
-        title: "WhatsApp Business Setup & Automation",
-        price: "₹399 – ₹999 (per setup)",
-        points: [
-            "Greeting & away messages",
-            "FAQ quick replies & templates",
-            "Catalog / services listing basics",
-            "Perfect for salons, clinics, shops, coaching, etc.",
-        ],
-    },
-    {
-        title: "Beauty of Danta Directory Listing",
-        price: "Planned: ₹299 / month or ₹499 / year",
-        points: [
-            "Your business listed in local directory (demo for now)",
-            "Name, photo, category, contact & map location",
-            "Great for Danta & nearby businesses",
-            "Final pricing will be decided once directory goes live",
-        ],
-    },
+  {
+    title: "Yearly Hosting & Maintenance",
+    price: "₹499 – ₹1,499 / year",
+    points: [
+      "Small text / photo updates",
+      "Basic bug fixes & speed tweaks",
+      "Help with domain & hosting renewals",
+      "WhatsApp support for minor issues",
+    ],
+  },
+  {
+    title: "WhatsApp Business Setup & Automation",
+    price: "₹399 – ₹999 (one-time)",
+    points: [
+      "Greeting & away messages",
+      "FAQ quick replies & templates",
+      "Catalog / services listing setup",
+      "Ideal for salons, clinics, shops & coaching centres",
+    ],
+  },
+  {
+    title: "Beauty of Danta Directory Listing",
+    price: "Planned: ₹299 / month or ₹499 / year",
+    points: [
+      "Your business listed in the upcoming directory (demo for now)",
+      "Name, photo, category, contact details & map location",
+      "Great for businesses in Danta & nearby areas",
+      "Final pricing will be confirmed after launch",
+    ],
+  },
 ];
 
+
 const addons = [
-    {
-        title: "Website Speed Optimization",
-        price: "₹499 – ₹1,499",
-        points: [
-            "Image compression & WebP conversion",
-            "CSS/JS cleanup where possible",
-            "Basic PageSpeed / Lighthouse improvements",
-        ],
-    },
-    {
-        title: "Festival / Offer Landing Page",
-        price: "₹399 – ₹999 each",
-        points: [
-            "Special page or section for Diwali, Holi, New Year etc.",
-            "Offer details, timer (if needed), simple CTA",
-            "Great for repeat customers & promotions",
-        ],
-    },
-    {
-        title: "AI Tools Access (Caption, Hashtag, QR etc.)",
-        price: "From ₹99 – ₹499",
-        points: [
-            "Access to small tools that help with daily content",
-            "Custom tools can be discussed separately",
-        ],
-    },
-    {
-        title: "Portfolio / Resume / LinkedIn Package",
-        price: "₹799 – ₹1,999",
-        points: [
-            "Simple personal portfolio site",
-            "ATS-friendly resume (PDF)",
-            "Basic LinkedIn optimisation guide",
-        ],
-    },
+  {
+    title: "Website Speed Optimization",
+    price: "₹499 – ₹1,499",
+    points: [
+      "Image compression & WebP conversion",
+      "CSS/JS cleanup where possible",
+      "Basic PageSpeed / Lighthouse improvements",
+    ],
+  },
+  {
+    title: "Festival / Offer Landing Page",
+    price: "₹399 – ₹999 each",
+    points: [
+      "Special promotional pages for Diwali, Holi, New Year, etc.",
+      "Offer details, countdown timer & CTA sections",
+      "Great for seasonal campaigns & repeat customers",
+    ],
+  },
+  {
+    title: "AI Tools Access (Captions, Hashtags, QR, etc.)",
+    price: "₹99 – ₹499",
+    points: [
+      "Access to time-saving AI tools for daily content",
+      "Custom tools can be developed separately",
+    ],
+  },
+  {
+    title: "Portfolio / Resume / LinkedIn Package",
+    price: "₹799 – ₹1,999",
+    points: [
+      "Clean professional portfolio site",
+      "ATS-friendly resume (PDF)",
+      "LinkedIn optimisation guidance",
+    ],
+  },
 ];
 
 const faqs = [
-    {
-        q: "How is the exact price decided?",
-        a: "Once you share your requirements on WhatsApp — such as business type, number of pages, features and content — I provide a clear price range. The final quote is locked before starting the project.",
-    },
-    {
-        q: "What is the payment process?",
-        a: "In most cases, it's 50% advance and 50% after the website is completed and approved. UPI / PhonePe / Google Pay are preferred. For large or advanced projects, milestone-based payments can be arranged.",
-    },
-    {
-        q: "How long will it take to build my website?",
-        a: "If your content is ready (text and basic photos), a one-page website typically goes live within 24–48 hours. Multi-page or full-stack projects depend on features and overall complexity.",
-    },
-    {
-        q: "What if I need changes later?",
-        a: "Minor text or photo updates are covered under the yearly maintenance plan. Bigger changes — like new sections, pages or features — are charged separately with a clear quote provided beforehand.",
-    },
-    {
-        q: "Do you build advanced websites (login, payments, dashboards, etc.)?",
-        a: "Yes. Using modern tools and AI-assisted development, I can create multi-page websites with authentication, payment integration, admin panels, dashboards, product listings, booking systems and API-based features. For such projects, a detailed WhatsApp discussion is required before finalizing the scope and pricing.",
-    },
+  {
+    q: "How is the exact price decided?",
+    a: "After you share your requirements on WhatsApp — business type, number of pages, features and content — I provide a clear price range. The final quote is confirmed before work begins.",
+  },
+  {
+    q: "What is the payment process?",
+    a: "For most projects, it's 50% advance and 50% after completion. UPI / PhonePe / Google Pay preferred. Larger or advanced projects can use milestone-based payments.",
+  },
+  {
+    q: "How long will it take to build my website?",
+    a: "If your content is ready, a 1-page website typically goes live within 24–48 hours. Multi-page or advanced websites depend on scope and complexity.",
+  },
+  {
+    q: "What if I need changes later?",
+    a: "Small text or photo updates are covered under yearly maintenance. Bigger updates (new pages, new sections, new features) have clear pricing shared beforehand.",
+  },
+  {
+    q: "Do you build advanced websites (login, payments, dashboards, etc.)?",
+    a: "Yes. I build websites with authentication, payment integration, dashboards, booking systems, product listings and API features using modern development and AI-assisted workflows. A detailed WhatsApp discussion is required to finalise scope.",
+  },
 ];
+
 
 
 export default function PricingPage() {
@@ -352,3 +355,4 @@ export default function PricingPage() {
         </main>
     );
 }
+
