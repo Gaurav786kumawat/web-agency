@@ -315,7 +315,7 @@ export default function HomePage() {
             Pricing Overview
           </h2>
           <Link
-            href="/demos"
+            href="/pricing"
             className="text-xs md:text-sm text-emerald-300 hover:underline"
           >
             View full pricing list →
